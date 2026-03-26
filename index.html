@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lingo Arcade</title>
+    <meta
+      name="description"
+      content="Lingo Arcade samlar språkappar, experiment, blogg och handplockade rekommendationer för bättre språkinlärning."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <a class="brand" href="#top">Lingo Arcade</a>
+        <nav class="topnav" aria-label="Primär navigation">
+          <a href="#apps">Appar</a>
+          <a href="#blog">Blogg</a>
+          <a href="#recommendations">Rekommendationer</a>
+          <a href="#about">Om</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">Språkinlärning, spelkänsla och små produktstudios</p>
+            <h1>En hemmaplan för appar som gör språk roligare att stanna kvar i.</h1>
+            <p class="hero-text">
+              Lingo Arcade samlar egna språkprodukter, pågående experiment och en
+              växande katalog av verktyg som faktiskt hjälper människor att lära
+              sig bättre.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#apps">Utforska appar</a>
+              <a class="button button-secondary" href="#recommendations"
+                >Se rekommendationer</a
+              >
+            </div>
+          </div>
+
+          <aside class="hero-panel" aria-label="Höjdpunkter">
+            <p class="panel-kicker">Version 1 fokus</p>
+            <ul class="signal-list">
+              <li>En tydlig samlingssida för alla dina språkappar</li>
+              <li>Plats för blogg, byggloggar och releasenotiser</li>
+              <li>Skalbar struktur för AM-rekommendationer</li>
+            </ul>
+            <div class="hero-metrics">
+              <article>
+                <span class="metric-value">03</span>
+                <span class="metric-label">ytor att bygga vidare på</span>
+              </article>
+              <article>
+                <span class="metric-value">V1</span>
+                <span class="metric-label">avsiktligt enkel grund</span>
+              </article>
+            </div>
+          </aside>
+        </section>
+
+        <section class="section" id="apps">
+          <div class="section-heading">
+            <p class="eyebrow">Appportfölj</p>
+            <h2>Dina appar i en tydlig, redaktionell översikt</h2>
+            <p>
+              Tanken här är att varje app får ett eget hem, men att startsidan snabbt
+              hjälper besökare att förstå vilken produkt som passar deras nivå och mål.
+            </p>
+          </div>
+
+          <div class="app-grid">
+            <article class="app-card featured">
+              <span class="app-state">Featured app</span>
+              <h3>Lingo Arcade Core</h3>
+              <p>
+                Flaggskeppet på sajten. Här kan du lyfta den app du vill driva mest
+                trafik till just nu.
+              </p>
+              <ul>
+                <li>Primär CTA till app eller väntelista</li>
+                <li>Tre korta värdepunkter</li>
+                <li>Plats för social proof senare</li>
+              </ul>
+            </article>
+
+            <article class="app-card">
+              <span class="app-state">Aktiv</span>
+              <h3>Mini Games</h3>
+              <p>
+                Kortformat för mindre språkspel, MVP:er eller kampanjsidor som du vill
+                samla under samma varumärke.
+              </p>
+            </article>
+
+            <article class="app-card">
+              <span class="app-state">Kommer snart</span>
+              <h3>Listening Lab</h3>
+              <p>
+                Använd kortet som teaser för nya produkter och för att bygga intresse
+                innan release.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section split-layout" id="blog">
+          <div class="section-heading compact">
+            <p class="eyebrow">Blogg & innehåll</p>
+            <h2>En plats för idéer, uppdateringar och SEO-starka guider</h2>
+            <p>
+              Bloggen kan bära både produktberättelsen och ett bredare innehållsspår
+              kring språkinlärning, verktyg och metoder.
+            </p>
+          </div>
+
+          <div class="blog-preview">
+            <article class="story-card">
+              <p class="story-meta">Bygglogg</p>
+              <h3>Vad vi lärde oss av första versionen av en språkspel-loop</h3>
+              <p>
+                Ett format för transparenta uppdateringar som bygger relation med både
+                användare och framtida kunder.
+              </p>
+            </article>
+            <article class="story-card">
+              <p class="story-meta">Guide</p>
+              <h3>De bästa typerna av appar för att träna ord utan att tröttna</h3>
+              <p>
+                Evergreen-innehåll som kan länka vidare till både dina appar och
+                rekommenderade verktyg.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="recommendations">
+          <div class="section-heading">
+            <p class="eyebrow">Rekommendationer</p>
+            <h2>En struktur för att rekommendera andra appar och språktjänster</h2>
+            <p>
+              Här har jag byggt en första informationsmodell för AM-innehåll: tydliga
+              kategorier, plats för disclosure och fokus på varför något rekommenderas.
+            </p>
+          </div>
+
+          <div class="filter-row" role="tablist" aria-label="Rekommendationskategorier">
+            <button class="filter-chip active" type="button" data-filter="all">Alla</button>
+            <button class="filter-chip" type="button" data-filter="apps">Appar</button>
+            <button class="filter-chip" type="button" data-filter="tutors">Tjänster</button>
+            <button class="filter-chip" type="button" data-filter="tools">Verktyg</button>
+          </div>
+
+          <div class="recommendation-grid">
+            <article class="recommendation-card" data-category="apps">
+              <div class="recommendation-topline">
+                <span class="pill">App</span>
+                <span class="pill subtle">AM redo</span>
+              </div>
+              <h3>Språkapp för daglig streak</h3>
+              <p>
+                Kort motivering, målgrupp och vad verktyget gör bättre än alternativen.
+              </p>
+              <footer>
+                <span>Nybörjare till medel</span>
+                <span>Plats för länk</span>
+              </footer>
+            </article>
+
+            <article class="recommendation-card" data-category="tutors">
+              <div class="recommendation-topline">
+                <span class="pill">Tjänst</span>
+                <span class="pill subtle">Disclosure</span>
+              </div>
+              <h3>1:1 språktutor online</h3>
+              <p>
+                Utrymme för att beskriva när mänsklig feedback är bättre än appträning
+                och hur användaren väljer rätt format.
+              </p>
+              <footer>
+                <span>Konversationsfokus</span>
+                <span>Plats för offert/CTA</span>
+              </footer>
+            </article>
+
+            <article class="recommendation-card" data-category="tools">
+              <div class="recommendation-topline">
+                <span class="pill">Verktyg</span>
+                <span class="pill subtle">Resurser</span>
+              </div>
+              <h3>Lexikon, flashcards och input-hjälpmedel</h3>
+              <p>
+                Bra för jämförande artiklar och "best of"-listor som kompletterar dina
+                egna produkter utan att konkurrera med dem.
+              </p>
+              <footer>
+                <span>Kompletterande stack</span>
+                <span>Plats för kategoriarkiv</span>
+              </footer>
+            </article>
+          </div>
+
+          <div class="disclosure-banner">
+            <p>
+              Transparensyta: här kan du lägga AM-disclosure, redaktionella principer
+              och hur du väljer vad som rekommenderas.
+            </p>
+          </div>
+        </section>
+
+        <section class="section about-strip" id="about">
+          <div>
+            <p class="eyebrow">Om sajten</p>
+            <h2>Byggd för att kunna växa från portfolio till innehållsmotor</h2>
+          </div>
+          <p>
+            Den här första versionen prioriterar struktur, tonalitet och tydliga block.
+            Nästa steg kan vara CMS, riktiga appdetaljsidor och ett mer komplett
+            rekommendationsarkiv.
+          </p>
+        </section>
+      </main>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
