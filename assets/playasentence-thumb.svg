@@ -1,0 +1,37 @@
+<svg width="720" height="480" viewBox="0 0 720 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="480" rx="32" fill="#0F2230"/>
+  <rect x="24" y="24" width="672" height="432" rx="28" fill="url(#bg)"/>
+  <circle cx="620" cy="92" r="98" fill="#FFD78D" fill-opacity="0.22"/>
+  <circle cx="144" cy="400" r="132" fill="#E98936" fill-opacity="0.18"/>
+  <rect x="76" y="62" width="184" height="300" rx="28" fill="url(#side)"/>
+  <text x="108" y="112" fill="#FFB14F" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="5">AUDIO PUZZLE</text>
+  <text x="108" y="162" fill="#FFF8EE" font-family="Georgia, serif" font-size="42" font-weight="700">Play a</text>
+  <text x="108" y="208" fill="#FFF8EE" font-family="Georgia, serif" font-size="42" font-weight="700">Sentence</text>
+  <text x="108" y="252" fill="#FFF8EE" font-family="Georgia, serif" font-size="42" font-weight="700">Temp</text>
+  <rect x="292" y="70" width="352" height="48" rx="24" fill="#F7F2EA" fill-opacity="0.92"/>
+  <rect x="392" y="138" width="154" height="40" rx="20" fill="#2B607F"/>
+  <rect x="290" y="198" width="162" height="104" rx="26" fill="#F9F3E8" fill-opacity="0.96"/>
+  <rect x="482" y="198" width="162" height="104" rx="26" fill="#F9F3E8" fill-opacity="0.96"/>
+  <rect x="290" y="322" width="162" height="104" rx="26" fill="#F9F3E8" fill-opacity="0.96"/>
+  <rect x="482" y="322" width="162" height="104" rx="26" fill="#F9F3E8" fill-opacity="0.96"/>
+  <circle cx="324" cy="250" r="13" fill="#CAD1CD"/>
+  <circle cx="418" cy="250" r="22" fill="#E7E4DE"/>
+  <circle cx="516" cy="250" r="13" fill="#CAD1CD"/>
+  <circle cx="610" cy="250" r="22" fill="#E7E4DE"/>
+  <circle cx="324" cy="374" r="13" fill="#CAD1CD"/>
+  <circle cx="418" cy="374" r="22" fill="#E7E4DE"/>
+  <circle cx="516" cy="374" r="13" fill="#CAD1CD"/>
+  <circle cx="610" cy="374" r="22" fill="#E7E4DE"/>
+  <rect x="450" y="438" width="164" height="14" rx="7" fill="#203747" fill-opacity="0.32"/>
+  <defs>
+    <linearGradient id="bg" x1="64" y1="30" x2="660" y2="450" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F1D8A3"/>
+      <stop offset="0.55" stop-color="#F7EAD1"/>
+      <stop offset="1" stop-color="#C9DCE6"/>
+    </linearGradient>
+    <linearGradient id="side" x1="88" y1="62" x2="234" y2="362" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#384440"/>
+      <stop offset="1" stop-color="#0E2230"/>
+    </linearGradient>
+  </defs>
+</svg>
