@@ -1,5 +1,31 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "cleanUrls": false,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/chatmate",
+      "destination": "https://chatmate-nu.vercel.app"
+    },
+    {
+      "source": "/chatmate/:path*",
+      "destination": "https://chatmate-nu.vercel.app/:path*"
+    },
+    {
+      "source": "/wordshooter",
+      "destination": "https://wordshooter-pi.vercel.app"
+    },
+    {
+      "source": "/wordshooter/:path*",
+      "destination": "https://wordshooter-pi.vercel.app/:path*"
+    },
+    {
+      "source": "/playasentence",
+      "destination": "https://playasentence.vercel.app"
+    },
+    {
+      "source": "/playasentence/:path*",
+      "destination": "https://playasentence.vercel.app/:path*"
+    }
+  ]
 }
