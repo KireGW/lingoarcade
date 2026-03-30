@@ -1,23 +1,5 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "cleanUrls": false,
-  "trailingSlash": false,
-  "rewrites": [
-    {
-      "source": "/chatmate",
-      "destination": "https://chatmate-nu.vercel.app"
-    },
-    {
-      "source": "/chatmate/:path*",
-      "destination": "https://chatmate-nu.vercel.app/:path*"
-    },
-    {
-      "source": "/playasentence",
-      "destination": "https://playasentence.vercel.app"
-    },
-    {
-      "source": "/playasentence/:path*",
-      "destination": "https://playasentence.vercel.app/:path*"
-    }
-  ]
+  "trailingSlash": false
 }
